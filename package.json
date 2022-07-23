@@ -1,0 +1,17 @@
+{
+  "name": "checkpoint",
+  "version": "1.0.0",
+  "description": "checkpiont express rooter engeni\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[D\u001b[D\u001b[Dtemplate engine middleware",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "wael",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "pug": "^3.0.2"
+  }
+}
