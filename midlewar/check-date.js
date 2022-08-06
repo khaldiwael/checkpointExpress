@@ -1,9 +1,9 @@
 const  permetion = (req,res,next) => {
     const time =new  Date()
-    isAuthorized = false
+    let isAuthorized = false
     let weekday = time.getDay()
     // console.log('check date'+ weekday)
-    if(weekday > 0 && weekday<7){
+    if(weekday > 0 && weekday<6){
         // console.log('if weekday')
         if (time.getHours()> 9 && (time.getHours()< 17)) {
             isAuthorized = true
